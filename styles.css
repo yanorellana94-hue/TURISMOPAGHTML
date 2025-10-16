@@ -26,20 +26,20 @@ p {
 }
 h2 {
   color: #b2369f;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
 }
 ul {
     color: aquamarine;
   list-style-type: disc;
   margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 section {
   margin-bottom: 30px;
 }
 
 form {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -61,7 +61,7 @@ form textarea {
 }
 
 form button {
-  margin-top: 15px;
+  margin-top: 100px;
   padding: 10px 20px;
   background-color: #006699;
   color: rgb(36, 159, 231);
@@ -70,12 +70,13 @@ form button {
 }
 
 form button:hover {
-  background-color: hsl(152, 100%, 20%);
+  background-color: hsl(152, 11%, 66%);
 }
 footer {
-    color: aquamarine;
+  
+     color: rgb(255, 127, 217);
   text-align: center;
-  margin-top: 40px;
-  color: hsl(216, 54%, 19%);
+  margin-top: 100px;
+  color: hsl(332, 68%, 21%);
 }
 
