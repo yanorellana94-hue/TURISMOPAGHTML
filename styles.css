@@ -1,82 +1,74 @@
-* {
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
-body {
-  background-color: #f4f4f9;
-  color: #333;
-  padding: 20px;
 }
 
 header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-h1 {
-  color: hsl(315, 53%, 52%);
-  margin-bottom: 10px;
-}
-p {
-  font-size: 1.2rem;
-  color: #e530c1;
-}
-h2 {
-  color: #b2369f;
-  margin-bottom: 100px;
-}
-ul {
-    color: aquamarine;
-  list-style-type: disc;
-  margin-left: 20px;
-    margin-bottom: 100px;
-}
-section {
-  margin-bottom: 30px;
-}
-
-form {
-  background-color: #ffffff;
+  background: #007bff;
+  color: white;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  max-width: 500px;
-  margin: auto;
+  text-align: center;
 }
 
-form label {
-    color: #e530c1;
-  display: block;
-  margin-top: 10px;
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
 }
 
-form input,
-form textarea {
+main {
+  padding: 20px;
+}
+
+form input, form button {
+  margin: 8px 0;
+  padding: 8px;
   width: 100%;
-  padding: 10px;
-  margin-top: 5px;
+  max-width: 300px;
 }
 
 form button {
-  margin-top: 100px;
-  padding: 10px 20px;
-  background-color: #006699;
-  color: rgb(36, 159, 231);
+  background-color: #28a745;
+  color: white;
   border: none;
   cursor: pointer;
 }
 
-form button:hover {
-  background-color: hsl(152, 11%, 66%);
-}
-footer {
-  
-     color: rgb(255, 127, 217);
-  text-align: center;
-  margin-top: 100px;
-  color: hsl(332, 68%, 21%);
+form button#borrar-todo {
+  background-color: #dc3545;
 }
 
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: #d21d6f;
+  border: 1px solid #be2727;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 0;
+  color: #333;
+}
+
+footer {
+  background: #eee;
+  padding: 15px;
+  text-align: center;
+}
+
+#footer-comentarios p {
+  font-size: 0.9rem;
+  margin: 4px 0;
+}

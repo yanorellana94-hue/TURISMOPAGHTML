@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turismo en Goya Pora</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="index.js" defer></script>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turismo en Goya Pora</title>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-<h1> Vivi Goya</h1>
-<p> Goya es un destino ideal para quienes buscan aventura o descanso.
-    Goya te espera para que disfrutes de sus rios, paisajes,historia, su flora y fauna autoctona
-<img src="https://www.diarioepoca.com/content/bucket/8/1352758w790h720.jpg.webp" alt="imagen "> </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-j_7IFlYJY0" title="https://youtu.be/-j_7IFlYJY0" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
-</header>
-<main>
+  <header>
+    <h1>Vivi Goya</h1>
+    <p>Goya es un destino ideal para quienes buscan aventura o descanso. Disfrutá de sus ríos, paisajes, historia, flora y fauna.</p>
+    <img src="https://www.diarioepoca.com/content/bucket/8/1352758w790h720.jpg.webp" alt="Río en Goya" />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-j_7IFlYJY0" title="Video de Goya" frameborder="0" allowfullscreen></iframe>
+  </header>
+
+  <main>
     <section>
-        <h2>Atractivos Turisticos</h2>
-        <ul>
-            <li> Fiesta nacional del Surubi: es una de la fiestas mas emblematicas de la ciudad, conocida como el Mundial de Pesca</li>
-            <li>Río Parana: Ideal para actividades acuáticas y pesca deportiva.</li>
-            <li>Plaza Mitre: Un lugar histórico con monumentos y áreas verdes.</li>
-            <li>Iglesia Catedral de Goya: Un hermoso edificio religioso con arquitectura impresionante.
-            <li>
-            Reserva Natural Isla de las Damas: A poca distancia, perfecta para observar la vida silvestre y disfrutar de la naturaleza.
-            </li>
-    <section id="formulario">
-        
-        <a href="contacto.html">
-            <button>contacto</button>
-        </a>
-       
+      <h2>Atractivos Turísticos</h2>
+      <ul>
+        <li>Fiesta Nacional del Surubí</li>
+        <li>Río Paraná</li>
+        <li>Plaza Mitre</li>
+        <li>Iglesia Catedral de Goya</li>
+        <li>Reserva Natural Isla de las Damas</li>
+      </ul>
     </section>
 
-</main>
-<footer>
-    <div>
-        <h3><p><strong>Dirrecion:</strong> salta 546, Goya, Corrientes, Argentina</p>
-            <p><strong>whatsapp:</strong> 589874653</p>
-            <p><strong>facebook:</strong>Goyapora@facebook</p>
-            <p><strong>mail:</strong>goyapora2343@gmail.com</p>
+    <section>
+      <h2>Dejá tu comentario</h2>
+      <form action ="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br>
 
-        </h3>
-    </div>
-    2025@todoslosderechosreservadosGoyaPora.
-</footer>
-<body>
-    
+        <label for="atractivo">Atractivo Turístico:</label>
+        <input type="text" id="atractivo" required><br>
+
+        <label for="puntuacion">puntuacion (1 a 5):</label>
+        <input type="number" id="puntuacion" min="1" max="5" required>
+
+        <button type="submit">Enviar Comentario</button>
+        </form>
+
+      <div id="Repositorio" class="Repositorio"></div>
+    </section>
+  </main>
+
+  <footer>
+    <h3>Comentarios recientes</h3>
+    <div id="footer-comentarios"></div>
+    <p>&copy; 2025 Turismo Goya Pora. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
